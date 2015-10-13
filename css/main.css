@@ -41,7 +41,7 @@
 .add-button {
 	background-color: #4FB28E;
 	font-family: 'Walter Turncoat', cursive; 
-	color: #666666;
+	color: #FFFFFF;
 	border-radius: 5x;
     cursor: pointer;
     border:none;
@@ -50,6 +50,9 @@
 	text-align: center;
 	font-family: 'Walter Turncoat', cursive;
 	font-size: 18px;
+}
+.list {
+	padding-left: 4.5em;
 }
 .items {
 	min-width: 18.75em;
@@ -68,8 +71,17 @@
 	margin-right: 30px;
 	height: 15px;
 	width: 15px;
-	cursor:pointer;
+	cursor: pointer;
 }
 .delete {
 	float:right;
+	cursor: pointer;
+}
+.footer {
+	background-color: #EDEDED;
+	height: 5em;
+	text-align: center;
+	padding-top: 2.5em;
+	font-family: 'Walter Turncoat', cursive;
+	font-size: 10px;
 }
